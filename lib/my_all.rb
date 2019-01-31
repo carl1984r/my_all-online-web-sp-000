@@ -11,7 +11,7 @@ while i < collection.length
   arr << yield(collection[i])
   i += 1
 end
-#Evaluate if arr elements are true or false.
+#Evaluate if arr elements are true or false && establish return values.
 if arr.include?(false)
   false
 else
