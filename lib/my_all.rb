@@ -5,7 +5,7 @@ def my_all?(collection)
 i = 0
 #New array to add return elements to.
 arr = []
-#New loop to iterate through array elements. 
+#New loop to iterate through array elements.
 while i < collection.length
   #Move return elements into new array.
   arr << yield(collection[i])
@@ -18,5 +18,3 @@ else
   true
 end
 end
-
-
